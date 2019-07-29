@@ -1,6 +1,5 @@
 machine-learning
 ===
-[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/izumo27/machine-learning/blob/master/LICENSE)
 
 Machine learning algorithms implemented by Python/C++  
 
