@@ -12,6 +12,11 @@ This repository does NOT use high level machine learning libraries such as SciPy
 
 #### Newton
 
+#### Adaptive gradient methods
+- RMS Prop
+- Ada Delta
+- Nadam
+
 ## TODO
 
 - Automatic differentiation

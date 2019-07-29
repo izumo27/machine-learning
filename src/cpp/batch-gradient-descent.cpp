@@ -18,7 +18,7 @@ template<typename T> void learn(std::vector<T>& weights, const std::vector<std::
 	for(int i = 0; i < input.size(); ++i){
 		T tmp = std::exp(-output[i] * inner_product(weights, input[i]));
 		tmp = tmp / (1 + tmp) * (-output[i]);
-		for(int j=0; j < input[i].size(); ++j){
+		for(int j = 0; j < input[i].size(); ++j){
 			grad[j] += tmp * input[i][j];
 		}
 	}
